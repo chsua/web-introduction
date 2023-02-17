@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/index.css"/>
+        <meta name="viewport" content="width=device-width">
+        <title>자기소개서</title>
+        
+    </head>
+    <body>
+        <label class="labelJoy"><input type="checkbox" class="joy">눌러보세요.</label>
+        <h1>자기소개서</h1>
+        <div class="myInfo">
+            <h2><p class="name">👩🏻 최수현</p></h2>
+            <p class="elem"><span class="info">🙆🏻 호:</span> 강아지, 따뜻한 것, 편안한 것, 영화, 마라샹궈, 양꼬치, 소고기, 해산물, 맥주, 스릴러/미스터리, 혼코노</p>
+            <p class="elem"><span class="info">🙅🏻 불호:</span> 폭력, 조개, 멀미나는 탈 것-놀이기구-, 고어물, 벌레, 추운 것, 단 것</p>
+            <p class="elem"><span class="info">🙋🏻 가능:</span> 클라이밍, 음주, 운전, 혼자 여행가기, 술 먹으며 코딩하기, 피씨방에서 밤새기, 이것저것 만들기</p>
+            <p class="elem"><span class="info">🤦🏻 불가능:</span> 밥 대신 빵 먹기, 통통배타기, 아침 일찍 일어나기, 아침에 운동하기, 어색한 거 참기</p>
+        </div>
+        <br>
+        <div>
+            <p class="movie"><h2>📽 기억에 남는 영화 순위 </h2></p>
+            <table>
+                <tr class="titleRow">
+                    <th class="rankColumn">순위</th>
+                    <th class="movieNameColumn">제목</th>
+                    <th class="oneSentenceColumn">한줄평</th>
+                    <th class="PosterColumn">포스터</th>
+                    <th class="linkColumn">링크</th>
+                </tr>
+                <tr class="first row">
+                    <th class="rank">1</th>
+                    <td class="movieName">그는 당신에게 반하지 않았다</td>
+                    <td class="oneSentence">사랑스러운 지지</td>
+                    <td ><img src="../images/그당반_image.jpeg"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=44920" target="_blank">바로가기</a></td>
+                </tr>
+                <tr class="second row">
+                    <th class="rank">2</th>
+                    <td class="movieName">그을린 사랑</td>
+                    <td class="oneSentence">어머니의 삶을 거꾸로 따라가며 한 인간으로 어머니를 마주게 되는 이야기</td>
+                    <td><img src="../images/그을린_사랑.jpeg"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=78240" target="_blank">바로가기</a></td>
+                </tr>
+                <tr class="third row">
+                    <th class="rank">3</th>
+                    <td class="movieName">에브리띵 에브리웨어 올 앤 원스</td>
+                    <td class="oneSentence">생각치 못하게 웃겼던, 이민가족이라면 더더욱 공감할 영화</td>
+                    <td><img src="../images/에에올앳원_image.jpeg"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=219402#" target="_blank">바로가기</a></td>
+                </tr>
+                <tr class="fourth row">
+                    <th class="rank">4</th>
+                    <td class="movieName">아메리칸 쉐프</td>
+                    <td class="oneSentence">맛있는 요리를 중심으로 가족애와 자부심을 볼 수 있는 이야기</td>
+                    <td><img src="../images/아메리칸 쉐프_image.jpeg"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=109920" target="_blank">바로가기</a></td>
+                </tr>
+                <tr class="fifth row">
+                    <th class="rank">5</th>
+                    <td class="movieName">모아나</td>
+                    <td class="oneSentence">멘토링한다고 초등학생이랑 같이 가서 내가 더 재미있게 본 영화</td>
+                    <td><img src="../images/모아나_image.jpeg"></td>
+                    <td><a href="https://movie.naver.com/movie/bi/mi/basic.naver?code=130849" target="_blank">바로가기</a></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+            <p class="guestBook"><h2>📒 방문한 사람 </h2></p>
+            <div class="guestInput">
+                <label class="guestNameLabel">이름: <input type="text" class="guestNameInput"></label>
+                <button class="submit" type="button" >제출</button>
+                <button class="reset" type="reset" >취소</button>
+            </div>
+            <div class="selectMovie">
+                <p><class="selectTitle">아래 영화 중 취향의 영화를 골라 제출해주세요</p>
+                <label class="checkboxMovieLabel"><input type="checkbox" class="movieForSelect">그는 당신에게 반하지 않았다</label>
+                <label class="checkboxMovieLabel"><input type="checkbox" class="movieForSelect">그을린 사랑</label>
+                <label class="checkboxMovieLabel"><input type="checkbox" class="movieForSelect">에브리띵 에브리웨어 올 앤 원스</label>
+                <label class="checkboxMovieLabel"><input type="checkbox" class="movieForSelect">아메리칸 쉐프</label>
+                <label class="checkboxMovieLabel"><input type="checkbox" class="movieForSelect">모아나</label>
+            </div>
+        </div>  
+        <script src="../js/index.js"></script>
+    </body>
+</html>

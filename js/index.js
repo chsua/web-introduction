@@ -8,7 +8,6 @@ const body = document.querySelector("body");
 function checkMovieCount() {
     let count = 0;
     checkMovie.forEach((movie) => {
-        s;
         if (movie.checked) count++;
     });
     return count;

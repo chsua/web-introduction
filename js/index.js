@@ -42,7 +42,7 @@ guestNameInput.addEventListener("keypress", (event) => {
 
 function showJoy() {
     if (checkJoy.checked) {
-        return (body.style.backgroundImage = "url(../images/조이.jpeg)");
+        return (body.style.backgroundImage = "url(../images/joy.jpeg)");
     }
     return (body.style = "");
 }
